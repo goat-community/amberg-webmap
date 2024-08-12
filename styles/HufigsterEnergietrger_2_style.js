@@ -3,7 +3,7 @@ var placement = 'point';
 function categories_HufigsterEnergietrger_2(feature, value, size, resolution, labelText,
                        labelFont, labelFill, bufferColor, bufferWidth,
                        placement) {
-                switch(value.toString()) {case 'gas':
+                switch(value.toString()) {case 'Gas':
                     return [ new ol.style.Style({
         stroke: new ol.style.Stroke({color: 'rgba(35,35,35,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(87,183,196,1.0)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
@@ -11,7 +11,7 @@ function categories_HufigsterEnergietrger_2(feature, value, size, resolution, la
                               bufferWidth)
     })];
                     break;
-case 'heizoel':
+case 'Heizöl':
                     return [ new ol.style.Style({
         stroke: new ol.style.Stroke({color: 'rgba(35,35,35,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(0,90,113,1.0)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,

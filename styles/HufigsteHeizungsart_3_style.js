@@ -3,7 +3,7 @@ var placement = 'point';
 function categories_HufigsteHeizungsart_3(feature, value, size, resolution, labelText,
                        labelFont, labelFill, bufferColor, bufferWidth,
                        placement) {
-                switch(value.toString()) {case 'einzel_mehrraumoefen':
+                switch(value.toString()) {case 'Einzel-/Mehrraumofen':
                     return [ new ol.style.Style({
         stroke: new ol.style.Stroke({color: 'rgba(35,35,35,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(156,156,156,1.0)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
@@ -11,7 +11,7 @@ function categories_HufigsteHeizungsart_3(feature, value, size, resolution, labe
                               bufferWidth)
     })];
                     break;
-case 'etagenheizung':
+case 'Etagenheizung':
                     return [ new ol.style.Style({
         stroke: new ol.style.Stroke({color: 'rgba(35,35,35,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(0,90,113,1.0)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
@@ -19,7 +19,7 @@ case 'etagenheizung':
                               bufferWidth)
     })];
                     break;
-case 'zentralheizung':
+case 'Zentralheizung':
                     return [ new ol.style.Style({
         stroke: new ol.style.Stroke({color: 'rgba(35,35,35,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(229,54,80,1.0)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
